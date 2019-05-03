@@ -51,20 +51,45 @@ Stefanie Krell\\
 
 Scientific Visualization is the Visualization of scientific phenomena. The purpose is to enable scientists to understand,illustrate and get insight from their data. The field deals with high amount of data. The use of stereoscopic images can improve the depth cue and the perception of the spatial relationships which might be crucial for scientist when analysing data.
 
+\section{Related Disciplines}
+
+\setlength{\parindent}{1pc}
+\textbf{Virtual reality (VR)}:A class of computer-controlled multisensory communication technologies that allow more intuitive interactions with data and involve human senses in new ways.VR can give us a sense of presence or immersion.It is a different way to see and experience information.Besides, VR also supports collaborative tasks.
+
+\setlength{\parindent}{1pc}
+\textbf{Rendering}:The process of generating an image from a model, by means of computer programs.It has uses in architecture, video games, simulators, movie or TV visual effects, and design visualization.Rendering process can computationally expensive.So,many rendering algorithms have been researched to optimize it.
+
+
 \section{Classical Applications and Equipments}
 
 
-\textbf{CAVE}:An immersive virtual reality environment where projectors are directed to between three and six of the walls of a room-sized cube it provides an immersive, stereoscopic environment.It uses motion capture system , which records the real time position of the user,for interaction.Also,CAVE2 was released in October 2012.
+CAVE:An immersive virtual reality environment where projectors are directed to between three and six of the walls of a room-sized cube it provides an immersive, stereoscopic environment.It uses motion capture system , which records the real time position of the user,for interaction.Also,CAVE2 was released in October 2012.
 
 \setlength{\parindent}{1pc}
-\textbf{Caffeine molecular viewer}:A molecular viewer Caffeine supports both standard desktop computers as well as multi-screen IVR systems Support for latest generation of HDMs is currently being developed.
+Caffeine molecular viewer:A molecular viewer Caffeine supports both standard desktop computers as well as multi-screen IVR systems Support for latest generation of HDMs is currently being developed.
 
 \setlength{\parindent}{1pc}
-\textbf{Curtin HIVE(Hub for Immersive Visualisation and eResearch)}:An advanced visualisation system to serve the growing demands of researchers and industry for visualisation, virtualisation and simulation capabilities.It is a multi-user, multi-display facility and the screen is illuminated using three 1920*1200 DLP projectors warped and blended.
+Curtin HIVE(Hub for Immersive Visualisation and eResearch):An advanced visualisation system to serve the growing demands of researchers and industry for visualisation, virtualisation and simulation capabilities.It is a multi-user, multi-display facility and the screen is illuminated using three 1920*1200 DLP projectors warped and blended.
 
 \section{Difficulties in This Field}
-\subsection{
-}
+\subsection{Processing Data:}In immersive VR, Exploring in a high complexity or a high dimensionality modern data set is difficult.Collaborative investigating in abstract representation of high-dimensional data and feature spaces is even harder.More Advanced techniques should be introduced to view feature vectors in a space of tens to hundreds of dimensions.
+
+\setlength{\parindent}{1pc}
+
+\subsection{Rendering:}
+When viewing primary representations of molecular,the performance of the system is significantly degraded with increasing amount of atoms and bonds model.The approach will be infeasible when it increased to the tens of thousands.To solve this, the Author of this article [1] implements the system with GPU instance rendering method in Unity3d engine.But it is still not good enough.
+
+\setlength{\parindent}{1pc}
+When dealing with protein secondary structure information, which is available for base structure and for every frame of the molecular model trajectory, the frame count can be very large.
+
+\setlength{\parindent}{1pc}
+More advanced rendering Methods should be used to solve those problems.
+
+%This paper [1] introduces a solution that the information extraction could be processed on demand instead of being extracted by a parser.
+
+\subsection{Interaction:}Tracing labeled neurons manually is time-consuming, may require months to reconstruct even small portions of the brain.It is more challenging working with image slices with fixed viewpoint.Tools such as Vaa3D and NeuroLucida 360 also has their drawbacks.A better tool with immersive environment for tracing should be build.
+\subsection{Displaying:}Current visualization tools are often incompatible with large screen multiuser display formats with stereoscopic 3D applications generally running an order of magnitude slower than on high end desktop PCs.Thus, faster displaying algorithms specialized for large screens should be introduced. 
+
 
 
 \end{document}

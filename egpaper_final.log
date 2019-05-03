@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7000 64-bit) (preloaded format=pdflatex 2019.4.10)  3 MAY 2019 19:15
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7000 64-bit) (preloaded format=pdflatex 2019.4.10)  3 MAY 2019 21:21
 entering extended mode
 **./egpaper_final.tex
 (egpaper_final.tex
@@ -372,36 +372,55 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 50.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 57.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 70.
 
+Underfull \hbox (badness 1354) in paragraph at lines 72--73
+\OT1/ptm/m/n/10 search):An ad-vanced vi-su-al-i-sa-tion sys-tem to serve the
+ []
+
+
+Underfull \hbox (badness 3229) in paragraph at lines 75--76
+[]\OT1/ptm/m/n/10 In im-mer-sive VR, Ex-plor-ing in a high com-plex-
+ []
+
+
+Underfull \hbox (badness 1688) in paragraph at lines 75--76
+\OT1/ptm/m/n/10 ity or a high di-men-sion-al-ity mod-ern data set is dif-
+ []
+
+
+Underfull \hbox (badness 1776) in paragraph at lines 75--76
+\OT1/ptm/m/n/10 fi-cult.Collaborative in-ves-ti-gat-ing in ab-stract rep-re-sen
+-ta-
+ []
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 95.
 [1{C:/Users/yzy/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
 
 
-
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 70.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 95.
 
 (egpaper_final.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 70.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 70.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 70.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 95.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 95.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 95.
  ) 
 Here is how much of TeX's memory you used:
- 6180 strings out of 492945
- 90498 string characters out of 3127140
- 180906 words of memory out of 3000000
+ 6184 strings out of 492945
+ 90549 string characters out of 3127140
+ 182906 words of memory out of 3000000
  9994 multiletter control sequences out of 15000+200000
  19876 words of font info for 49 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 32i,9n,27p,392b,322s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 32i,9n,27p,405b,324s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Users/yzy/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}<
 C:/Users/yzy/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/courier/ucrr8a.p
 fb><C:/Users/yzy/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/times/utmb8a
 .pfb><C:/Users/yzy/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/times/utmr
 8a.pfb>
-Output written on egpaper_final.pdf (1 page, 44374 bytes).
+Output written on egpaper_final.pdf (1 page, 49500 bytes).
 PDF statistics:
- 28 PDF objects out of 1000 (max. 8388607)
- 6 named destinations out of 1000 (max. 500000)
+ 34 PDF objects out of 1000 (max. 8388607)
+ 10 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
