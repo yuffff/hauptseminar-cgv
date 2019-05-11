@@ -15,6 +15,11 @@ Ciro Donalek, S~G Djorgovski, Alex Cioc, Anwell Wang, Jerry Zhang, Elizabeth
   Platforms}.
 \newblock pages 609--614, 2014.
 
+\bibitem{VanderLaan2009}
+Wladimir~J. van~der Laan, Simon Green, and Miguel Sainz.
+\newblock {Screen space fluid rendering with curvature flow}.
+\newblock 1(212):91, 2009.
+
 \bibitem{Usher2018}
 Will Usher, Pavol Klacansky, Frederick Federer, Peer~Timo Bremer, Aaron Knoll,
   Jeff Yarch, Alessandra Angelucci, and Valerio Pascucci.
