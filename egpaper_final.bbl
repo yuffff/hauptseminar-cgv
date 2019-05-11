@@ -1,0 +1,25 @@
+\begin{thebibliography}{1}
+
+\bibitem{Wiebrands2018}
+Michael Wiebrands, Chris~J. Malajczuk, Andrew~J. Woods, Andrew~L. Rohl, and
+  Ricardo~L. Mancera.
+\newblock {Molecular Dynamics Visualization (MDV): Stereoscopic 3D Display of
+  Biomolecular Structure and Interactions Using the Unity Game Engine}.
+\newblock {\em Journal of Integrative Bioinformatics}, 15(2):1--8, 2018.
+
+\bibitem{Donalek2014}
+Ciro Donalek, S~G Djorgovski, Alex Cioc, Anwell Wang, Jerry Zhang, Elizabeth
+  Lawler, Stacy Yeh, Ashish Mahabal, Matthew Graham, Andrew Drake, Scott
+  Davidoff, Jeffrey~S Norris, and Giuseppe Longo.
+\newblock {Immersive and Collaborative Data Visualization Using Virtual Reality
+  Platforms}.
+\newblock pages 609--614, 2014.
+
+\bibitem{Usher2018}
+Will Usher, Pavol Klacansky, Frederick Federer, Peer~Timo Bremer, Aaron Knoll,
+  Jeff Yarch, Alessandra Angelucci, and Valerio Pascucci.
+\newblock {A Virtual Reality Visualization Tool for Neuron Tracing}.
+\newblock {\em IEEE Transactions on Visualization and Computer Graphics},
+  24(1):994--1003, 2018.
+
+\end{thebibliography}
