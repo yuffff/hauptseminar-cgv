@@ -49,13 +49,12 @@ Stefanie Krell\\
 %%%%%%%%% BODY TEXT
 \section{Introduction}
 
-Scientific Visualization is the Visualization of scientific phenomena. That includes he visualization of flow, particles, terrain, volume and tensors. The purpose is to enable scientists to understand, illustrate and get insight from their data. The data is often very large and most of the time 3D.  The use of stereoscopic images can improve the depth cue and the perception of the spatial relationships which might be crucial for scientist when analyzing data. 
+Scientific Visualization is the visualization of scientific phenomena. That includes the visualization of flow, particles, terrain, volume and tensors. The purpose is to enable scientists to understand, illustrate and get insight from their data. The data is often very large and most of the time 3D.  The use of stereoscopic images can improve the depth cue and the perception of the spatial relationships which might be crucial for scientist when analyzing data. 
 
 %\section{Related Disciplines}
 
 \setlength{\parindent}{1pc}
-Virtual reality can give us a sense of presence or immersion in an 3D environment. It is a class of computer-controlled multisensory communication technologies that allow more intuitive interactions with data and involve human senses in new ways. Nowadays head mounted displays
-(HMDs) like Oculus Rift1 or HTC Vive2 are widely available. That is one way to experience VR.As described in this paper \cite{Wiebrands2018}, an nother Way are systems like the CAVE . It is an immersive virtual reality environment where projectors are directed to between three and six of the walls of a room-sized cube. It uses motion capture system, which records the real time position of the user,for interaction . When using VR for Scientific Visualization the scientists can explore the data in a more direct way which might lead to insights they would otherwise not get. 
+Virtual reality can give a sense of presence or immersion in an 3D environment. It is a class of computer-controlled multisensory communication technologies that allow more intuitive interactions with data and involve human senses in new ways. Nowadays head mounted displays (HMDs) like Oculus Rift1 or HTC Vive2 are widely available. That is one way to experience VR. As described in this paper \cite{Wiebrands2018}, annother way are systems like the CAVE. It is an immersive virtual reality environment where projectors are directed to between three and six of the walls of a room-sized cube. It uses motion capture system, which records the real time position of the user, for interaction. When using VR for Scientific Visualization, scientists can explore the data in ways which might lead to insights they would otherwise not get. 
 
 %\setlength{\parindent}{1pc}
 %\textbf{Rendering}:The process of generating an image from a model, by means of computer programs.It has uses in architecture, video %games, simulators, movie or TV visual effects, and design visualization.Rendering process can computationally expensive.So,many rendering algorithms have been researched to optimize it.
@@ -74,22 +73,15 @@ Virtual reality can give us a sense of presence or immersion in an 3D environmen
 
 \section{Difficulties in This Field}
 
-\subsection{Processing Data:}In immersive VR, exploring in a high complexity or a high dimensionality modern data set is difficult.According to this paper \cite{Donalek2014}, collaborative investigating in abstract representation of high-dimensional data and feature spaces is even harder. More advanced techniques should be introduced to view feature vectors in a space of tens to hundreds of dimensions.
-
-
-
+\subsection{Processing Data:}In immersive VR, exploring in a high complexity or a high dimensionality modern data set is difficult. According to Donalek et al. \cite{Donalek2014}, collaborative investigating in abstract representation of high-dimensional data and feature spaces is even harder. More advanced techniques should be introduced to view feature vectors in a space of tens to hundreds of dimensions.
 
 \subsection{Rendering:}
-General challenges in VR are stereo rendering, the high rendering quality and high frame rates of 90 fps to avoid nausea. Because of these reasons applications reduce precision and density to match the criteria. Thinning respective point clouds or converting them to 3D meshes are a way to go. In [A Point...] performance optimization techniques that speed up the rendering pipeline for 3D point clouds and image optimization techniques that improve image quality are introduced. In [Visualizing large-scale..] they used a distributed, image-parallel algorithm to perform volume rendering of electron density fields and to ray-cast ball-and-stick glyph in one pass to speed up rendering for large-scale Molecular Dynamics simulations.
+General challenges in VR are stereo rendering, the high rendering quality and high frame rates of 90 fps to avoid nausea. Because of these reasons applications reduce precision and density to match the criteria. For rendering of 3D point clouds, thinning respective point clouds \cite{peters2016robust} and converting them to 3D meshes \cite{berger2017survey} can be a way. Discher et al. \cite{discher_point-based_2018} introduced performance optimization techniques e.g. Reverse Painter’s Algorithm and image optimization techniques like adaptive point size and paraboloid rendering. 
 
- In [Immersive Molec...] they used a 2-phase rendering system that combines omnidirectional stereoscopic ray tracing with high-performance view-dependent rasterization to provide one or multiple users with high-quality immersive visualization. 
+ In \cite{reda_visualizing_2013} they used a distributed, image-parallel algorithm to perform volume rendering of electron density fields and to ray-cast ball-and-stick glyph in one pass to speed up rendering for large-scale molecular dynamics simulations. For molecular visualization Stone et al. \cite{stone_immersive_2016} used a 2-phase rendering system that combines omnidirectional stereoscopic ray tracing with high-performance view-dependent rasterization to provide one or multiple users with high-quality immersive visualization. When viewing primary representations of molecular, the performance of the system is significantly degraded with increasing amount of atoms and bonds model. To solve this, Wiebrands et al. \cite{Wiebrands2018} implemented the system with GPU instance rendering method in Unity3d engine. 
 
- When viewing primary representations of molecular, the performance of the system is significantly degraded with increasing amount of atoms and bonds model. To solve this, the author of this article \cite{Wiebrands2018} implements the system with GPU instance rendering method in Unity3d engine. 
+Interactive scenes such as those used in games are costly in terms of memory and computation. Of the rendering methods used for particle fluids, most are not suitable for real-time use in games. This could be achieved by improving the algorithms or mathematical formulations during the rendering process. In \cite{VanderLaan2009} they have incorporated a few ideas from Level-sets method, and reduced the computational complexity for the purpose of real-time performance.
 
-Interactive scenes such as those used in games are costly in terms of memory and computation.Of the rendering methods used for particle fluids that have been developed, most are not suitable for real-time use in games.This could be achieved by improving the algorithms or mathematical formulations during the rendering process.In this paper\cite{VanderLaan2009}, they have incorporated a few ideas from Level-sets method , and reduced the computational complexity for the purpose of real-time performance.
-%[] "`A Point-Based and Image-Based Multi-Pass Rendering Technique for Visualizing Massive 3D Point Clouds in VR Environments"'
-%[]Reda et al. - 2013 - Visualizing large-scale atomistic simulations in u.pdf
-%[Immersive Molec...]Immersive Molecular Visualization with Omnidirectional Stereoscopic Ray Tracing and Remote Rendering
 %\setlength{\parindent}{1pc}
 %When dealing with protein secondary structure information, which is available for base structure and for every frame of the molecular model trajectory, the frame count can be very large.
 
@@ -99,7 +91,7 @@ Interactive scenes such as those used in games are costly in terms of memory and
 %This paper [1] introduces a solution that the information extraction could be processed on demand instead of being extracted by a parser.
 
 \subsection{Interaction:}Tracing labeled neurons manually is time-consuming, may require months to reconstruct even small portions of the brain. It is more challenging working with image slices with fixed viewpoint \cite{Usher2018}. Tools such as Vaa3D and NeuroLucida 360 also have their drawbacks. A better tool with immersive environment for tracing should be build.
-\subsection{Displaying:}Current running stereoscopic 3D applications using large screen multiuser display is generally an order of magnitude slower than on high end desktop PCs .For example , paper \cite{Wiebrands2018} tries to solve this problem. Thus, faster displaying algorithms specialized for large screens should be introduced. 
+\subsection{Displaying:}Current running stereoscopic 3D applications using large screen multiuser display are generally an order of magnitude slower than on high end desktop PCs. For example, paper \cite{Wiebrands2018} tries to solve this problem. Thus, faster displaying algorithms specialized for large screens should be introduced. 
 
 {\small
 \bibliographystyle{unsrt}

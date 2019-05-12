@@ -15,6 +15,39 @@ Ciro Donalek, S~G Djorgovski, Alex Cioc, Anwell Wang, Jerry Zhang, Elizabeth
   Platforms}.
 \newblock pages 609--614, 2014.
 
+\bibitem{peters2016robust}
+Ravi Peters and Hugo Ledoux.
+\newblock Robust approximation of the medial axis transform of lidar point
+  clouds as a tool for visualisation.
+\newblock {\em Computers \& geosciences}, 90:123--133, 2016.
+
+\bibitem{berger2017survey}
+Matthew Berger, Andrea Tagliasacchi, Lee~M Seversky, Pierre Alliez, Gael
+  Guennebaud, Joshua~A Levine, Andrei Sharf, and Claudio~T Silva.
+\newblock A survey of surface reconstruction from point clouds.
+\newblock 36(1):301--329, 2017.
+
+\bibitem{discher_point-based_2018}
+Sören Discher, Leon Masopust, Sebastian Schulz, Rico Richter, and Jürgen
+  Döllner.
+\newblock A {Point}-{Based} and {Image}-{Based} {Multi}-{Pass} {Rendering}
+  {Technique} for {Visualizing} {Massive} 3d {Point} {Clouds} in {VR}
+  {Environments}.
+\newblock {\em Journal of WSCG}, 26(2), 2018.
+
+\bibitem{reda_visualizing_2013}
+Khairi Reda, Aaron Knoll, Ken-ichi Nomura, Michael~E. Papka, Andrew~E. Johnson,
+  and Jason Leigh.
+\newblock Visualizing large-scale atomistic simulations in ultra-resolution
+  immersive environments.
+\newblock pages 59--65, October 2013.
+
+\bibitem{stone_immersive_2016}
+J.~E. Stone, W.~R. Sherman, and K.~Schulten.
+\newblock Immersive {Molecular} {Visualization} with {Omnidirectional}
+  {Stereoscopic} {Ray} {Tracing} and {Remote} {Rendering}.
+\newblock pages 1048--1057, May 2016.
+
 \bibitem{VanderLaan2009}
 Wladimir~J. van~der Laan, Simon Green, and Miguel Sainz.
 \newblock {Screen space fluid rendering with curvature flow}.
