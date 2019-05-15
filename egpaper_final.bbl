@@ -1,12 +1,5 @@
 \begin{thebibliography}{1}
 
-\bibitem{Wiebrands2018}
-Michael Wiebrands, Chris~J. Malajczuk, Andrew~J. Woods, Andrew~L. Rohl, and
-  Ricardo~L. Mancera.
-\newblock {Molecular Dynamics Visualization (MDV): Stereoscopic 3D Display of
-  Biomolecular Structure and Interactions Using the Unity Game Engine}.
-\newblock {\em Journal of Integrative Bioinformatics}, 15(2):1--8, 2018.
-
 \bibitem{Donalek2014}
 Ciro Donalek, S~G Djorgovski, Alex Cioc, Anwell Wang, Jerry Zhang, Elizabeth
   Lawler, Stacy Yeh, Ashish Mahabal, Matthew Graham, Andrew Drake, Scott
@@ -47,6 +40,13 @@ J.~E. Stone, W.~R. Sherman, and K.~Schulten.
 \newblock Immersive {Molecular} {Visualization} with {Omnidirectional}
   {Stereoscopic} {Ray} {Tracing} and {Remote} {Rendering}.
 \newblock pages 1048--1057, May 2016.
+
+\bibitem{Wiebrands2018}
+Michael Wiebrands, Chris~J. Malajczuk, Andrew~J. Woods, Andrew~L. Rohl, and
+  Ricardo~L. Mancera.
+\newblock {Molecular Dynamics Visualization (MDV): Stereoscopic 3D Display of
+  Biomolecular Structure and Interactions Using the Unity Game Engine}.
+\newblock {\em Journal of Integrative Bioinformatics}, 15(2):1--8, 2018.
 
 \bibitem{VanderLaan2009}
 Wladimir~J. van~der Laan, Simon Green, and Miguel Sainz.
