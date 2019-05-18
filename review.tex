@@ -90,8 +90,16 @@ The multi-pass approach offers a maximum degree of freedom as rendering techniqu
 
 \section{Visualization of Atomistic Simulations}
 \subsection{Overview}
+In this project \cite{reda_visualizing_2013} they present an application for interactive visualization and exploration of large-scale atomistic simulations in ultra-resolution immersive environments on CAVE2. Molecular Dynamics is a principle methodology in the study of nanoscale systems in applications of alternative fuel or energy storage. Even though there are a lot of molecular visualization techniques atomistic simulations remain difficult because complex structures with millions of atoms need to be visualized. Here they are using a hybrid representation which combines a ball-and-stick glyph with volumetric surfaces to show the uncertainty in molecular boundaries at the nanoscale.
 \subsection{Rendering}
+For rendering they use volume rendering of electron density field and a ray-cast approach for the ball-and-stick glyphs. To speed up rendering they take an in-core solution. Multiple GPU nodes are used. Stereoscopic rendering is achieved by rendering and interleaving two images separated by the average inter-pupillary distance. To support correct viewing for multiple individuals, they normalized the head orientation when tracking, so that the eyes are always parallel to the screens surface. That might lead to small distortions between the tiles but it is a good compromise.The Ray-cast is done users head to each panel.
+As a datastructure to represent ball-and-stick glyphs a uniform 'Macrocells' 3D grid is employed. Each voxel in the grid stores information about all of the atoms and bonds, which are within the cell.
+The ray-casting algorithm \cite{Amanatides87afast} traverses each voxel at a discrete level. Because the list of glyphs in a cell is not depth ordered the algorithm has to test every primitive(sphere or cylinder) 
+
+
+
 \subsection{Interaction}
+CAVE2 provides 3D Navigation using a 6 degrees-of-freedom joystick coupled with head-tracking. The user can fly through the simulation by using a button and by moving/rotating the joystick in the desired direction. The head-tracking provides a user-centered perspective. The user can also adjust the transfer function interactively by the wireless wand or via a tablet. The modification updates the visualization in real-time.
 
 \section{Conclusion}
 
