@@ -14,7 +14,8 @@
 % egpaper.aux before re-running latex.  (Or just hit 'q' on the first latex
 % run, let it finish, and you should be clear).
 \usepackage[breaklinks=true,bookmarks=false]{hyperref}
-
+\setkeys{Gin}{width=\columnwidth}
+\graphicspath{{pictures/}}
 \iccvfinalcopy % *** Uncomment this line for the final submission
 
 \def\iccvPaperID{****} % *** Enter the ICCV Paper ID here
@@ -56,6 +57,11 @@ In this project \cite{discher_point-based_2018} they utilized a multi-pass rende
 Real time rendering of 3d points clouds allows for interactive exploring of real-world assets, sites or regions. In Virtual reality the applications have to cope with very high framerates ( 90fps as opposed to 30-60fps) and high sensivity to any kind of visual artifacts which are typical for showing 3D Point Clouds(e.g holey surfaces and visual clutter). It is a project that allows for exploration of 3D point clouds with CR devices such as HTC Vive or Oculus Rift. It was tested with up to 2.6 billion points. The goal of this project was to show the scalability and practicability of the approach.
 There are similar approaches out their like ….
 This project is quite different to the other papers explained in this review.
+\begin{figure}
+	\includegraphics{pointcloud_1.png}
+	\caption{Point-cloud Visulization on HTC Vive of an Airborne scan of a city}
+	\label{img:pointcloud_1}
+\end{figure}
 
 \subsection{Rendering}
 The rendering system of the project consists of 3 basic steps: data subset selection, point cloud rendering and image-based post processing.
@@ -91,7 +97,13 @@ The multi-pass approach offers a maximum degree of freedom as rendering techniqu
 \section{Visualization of Atomistic Simulations}
 \subsection{Overview}
 In this project \cite{reda_visualizing_2013} they present an application for interactive visualization and exploration of large-scale atomistic simulations in ultra-resolution immersive environments on CAVE2. Molecular Dynamics is a principle methodology in the study of nanoscale systems in applications of alternative fuel or energy storage. Even though there are a lot of molecular visualization techniques atomistic simulations remain difficult because complex structures with millions of atoms need to be visualized. Here they are using a hybrid representation which combines a ball-and-stick glyph with volumetric surfaces to show the uncertainty in molecular boundaries at the nanoscale.
+
 \subsection{Rendering}
+\begin{figure}
+	\includegraphics{atomistic_4.png}
+	\caption{Visulization of electronic structures}
+	\label{img:atomistic}
+\end{figure}
 For rendering they use volume rendering of electron density field and a ray-cast approach for the ball-and-stick glyphs. To speed up rendering they take an in-core solution. Multiple GPU nodes are used. Stereoscopic rendering is achieved by rendering and interleaving two images separated by the average inter-pupillary distance. To support correct viewing for multiple individuals, they normalized the head orientation when tracking, so that the eyes are always parallel to the screens surface. That might lead to small distortions between the tiles but it is a good compromise.The Ray-cast is done users head to each panel.
 As a datastructure to represent ball-and-stick glyphs a uniform 'Macrocells' 3D grid is employed. Each voxel in the grid stores information about all of the atoms and bonds, which are within the cell.
 The ray-casting algorithm \cite{Amanatides87afast} traverses each voxel at a discrete level. Because the list of glyphs in a cell is not depth ordered the algorithm has to test every primitive(sphere or cylinder) 
