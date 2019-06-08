@@ -8,4 +8,6 @@ p:
 
 ----updated 08.06.2019---
 attention:
+most of my work is done in review.tex
+do not forget to add the pictures when merging 
 first version of review on my part , "[x]" should be replaced when adding references!
